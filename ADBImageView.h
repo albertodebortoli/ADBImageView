@@ -46,8 +46,8 @@
 + (void)setCachingTime:(NSTimeInterval)cachingTimeInterval;
 + (void)resetGlobalCache;
 
-- (void)setImageWithURL:(NSString *)imageURL placeholderImage:(UIImage *)placeholderImage;
-- (void)reloadWithUrl:(NSString *)url;
+- (void)setImageWithURL:(NSURL *)imageURL placeholderImage:(UIImage *)placeholderImage;
+- (void)reloadWithUrl:(NSURL *)url;
 - (void)cancelLoad;
 - (void)resetCache;
 

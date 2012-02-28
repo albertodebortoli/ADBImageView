@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9976905C13112911003E1E17 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 9976905B13112911003E1E17 /* README */; };
 		99ABF136130D3C6400462754 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99ABF135130D3C6400462754 /* UIKit.framework */; };
 		99ABF138130D3C6400462754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99ABF137130D3C6400462754 /* Foundation.framework */; };
 		99ABF13A130D3C6400462754 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99ABF139130D3C6400462754 /* CoreGraphics.framework */; };
 		99ABF151130D3C9200462754 /* ADBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ABF150130D3C9200462754 /* ADBImageView.m */; };
+		D38BDE5114FD8F2D00A7D182 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D38BDE5014FD8F2D00A7D182 /* README.md */; };
 		D3AE9D6614FA80CA002E9779 /* ADBImageViewDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3AE9D5B14FA80CA002E9779 /* ADBImageViewDemo-Info.plist */; };
 		D3AE9D6714FA80CA002E9779 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AE9D5E14FA80CA002E9779 /* AppDelegate.m */; };
 		D3AE9D6814FA80CA002E9779 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3AE9D5F14FA80CA002E9779 /* InfoPlist.strings */; };
@@ -22,13 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9976905B13112911003E1E17 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		99ABF131130D3C6400462754 /* ADBImageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADBImageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99ABF135130D3C6400462754 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99ABF137130D3C6400462754 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		99ABF139130D3C6400462754 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		99ABF14F130D3C9200462754 /* ADBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBImageView.h; sourceTree = "<group>"; };
 		99ABF150130D3C9200462754 /* ADBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBImageView.m; sourceTree = "<group>"; };
+		D38BDE5014FD8F2D00A7D182 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		D3AE9D5B14FA80CA002E9779 /* ADBImageViewDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ADBImageViewDemo-Info.plist"; sourceTree = "<group>"; };
 		D3AE9D5C14FA80CA002E9779 /* ADBImageViewDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ADBImageViewDemo-Prefix.pch"; sourceTree = "<group>"; };
 		D3AE9D5E14FA80CA002E9779 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		99ABF126130D3C6400462754 = {
 			isa = PBXGroup;
 			children = (
-				9976905B13112911003E1E17 /* README */,
+				D38BDE5014FD8F2D00A7D182 /* README.md */,
 				99ABF152130D3C9700462754 /* ADBIMageView */,
 				D3AE9D5A14FA80CA002E9779 /* ADBImageViewDemo */,
 				99ABF134130D3C6400462754 /* Frameworks */,
@@ -166,12 +166,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9976905C13112911003E1E17 /* README in Resources */,
 				D3AE9D6614FA80CA002E9779 /* ADBImageViewDemo-Info.plist in Resources */,
 				D3AE9D6814FA80CA002E9779 /* InfoPlist.strings in Resources */,
 				D3AE9D6914FA80CA002E9779 /* MainWindow.xib in Resources */,
 				D3AE9D6B14FA80CA002E9779 /* placeholder.png in Resources */,
 				D3AE9D6C14FA80CA002E9779 /* placeholder@2x.png in Resources */,
+				D38BDE5114FD8F2D00A7D182 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
