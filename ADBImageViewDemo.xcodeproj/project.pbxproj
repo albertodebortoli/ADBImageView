@@ -14,11 +14,10 @@
 		D38BDE5114FD8F2D00A7D182 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D38BDE5014FD8F2D00A7D182 /* README.md */; };
 		D3AE9D6614FA80CA002E9779 /* ADBImageViewDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3AE9D5B14FA80CA002E9779 /* ADBImageViewDemo-Info.plist */; };
 		D3AE9D6714FA80CA002E9779 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AE9D5E14FA80CA002E9779 /* AppDelegate.m */; };
-		D3AE9D6814FA80CA002E9779 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3AE9D5F14FA80CA002E9779 /* InfoPlist.strings */; };
-		D3AE9D6914FA80CA002E9779 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AE9D6114FA80CA002E9779 /* MainWindow.xib */; };
 		D3AE9D6A14FA80CA002E9779 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AE9D6314FA80CA002E9779 /* main.m */; };
 		D3AE9D6B14FA80CA002E9779 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AE9D6414FA80CA002E9779 /* placeholder.png */; };
 		D3AE9D6C14FA80CA002E9779 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AE9D6514FA80CA002E9779 /* placeholder@2x.png */; };
+		D3E6F54915000485001916C6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E6F54815000485001916C6 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +31,11 @@
 		D3AE9D5B14FA80CA002E9779 /* ADBImageViewDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ADBImageViewDemo-Info.plist"; sourceTree = "<group>"; };
 		D3AE9D5C14FA80CA002E9779 /* ADBImageViewDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ADBImageViewDemo-Prefix.pch"; sourceTree = "<group>"; };
 		D3AE9D5E14FA80CA002E9779 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D3AE9D6014FA80CA002E9779 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D3AE9D6214FA80CA002E9779 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		D3AE9D6314FA80CA002E9779 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3AE9D6414FA80CA002E9779 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		D3AE9D6514FA80CA002E9779 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
 		D3AE9D8614FA8B9A002E9779 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3E6F54815000485001916C6 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +96,9 @@
 				D3AE9D6D14FA80DE002E9779 /* Supporting Files */,
 				D3AE9D8614FA8B9A002E9779 /* AppDelegate.h */,
 				D3AE9D5E14FA80CA002E9779 /* AppDelegate.m */,
-				D3AE9D6114FA80CA002E9779 /* MainWindow.xib */,
 				D3AE9D6414FA80CA002E9779 /* placeholder.png */,
 				D3AE9D6514FA80CA002E9779 /* placeholder@2x.png */,
+				D3E6F54815000485001916C6 /* MainWindow.xib */,
 			);
 			path = ADBImageViewDemo;
 			sourceTree = "<group>";
@@ -110,7 +108,6 @@
 			children = (
 				D3AE9D5B14FA80CA002E9779 /* ADBImageViewDemo-Info.plist */,
 				D3AE9D5C14FA80CA002E9779 /* ADBImageViewDemo-Prefix.pch */,
-				D3AE9D5F14FA80CA002E9779 /* InfoPlist.strings */,
 				D3AE9D6314FA80CA002E9779 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -167,11 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3AE9D6614FA80CA002E9779 /* ADBImageViewDemo-Info.plist in Resources */,
-				D3AE9D6814FA80CA002E9779 /* InfoPlist.strings in Resources */,
-				D3AE9D6914FA80CA002E9779 /* MainWindow.xib in Resources */,
 				D3AE9D6B14FA80CA002E9779 /* placeholder.png in Resources */,
 				D3AE9D6C14FA80CA002E9779 /* placeholder@2x.png in Resources */,
 				D38BDE5114FD8F2D00A7D182 /* README.md in Resources */,
+				D3E6F54915000485001916C6 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,25 +185,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D3AE9D5F14FA80CA002E9779 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3AE9D6014FA80CA002E9779 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D3AE9D6114FA80CA002E9779 /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3AE9D6214FA80CA002E9779 /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		99ABF14A130D3C6400462754 /* Debug */ = {

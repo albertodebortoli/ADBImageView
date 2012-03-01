@@ -33,7 +33,7 @@
                   @"http://www.albertodebortoli.it/GitHub/ADBImageView/Qwoote.png", nil];
     
     _imageView = [[ADBImageView alloc] initWithFrame:CGRectMake(10.0, 30.0, 300.0, 300.0)];
-    _imageView.caching = YES;
+    _imageView.caching = NO; // YES is default
     _imageView.delegate = self;
     
     [_imageView setImageWithURL:[NSURL URLWithString:[_imageURLs objectAtIndex:0]]
@@ -47,8 +47,7 @@
 #pragma mark - Actions
 
 - (void)buttonTapped:(UIButton *)sender
-{   
-    NSLog(@"%f", _imageView.cacheTime);
+{
     [_imageView reloadWithUrl:[NSURL URLWithString:[_imageURLs objectAtIndex:arc4random() % [_imageURLs count]]]];
 }
 
@@ -72,19 +71,31 @@
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error"
                                                     message:@"Error Loading URL"
                                                    delegate:nil
-                                          cancelButtonTitle:@"Cancel"
-                                          otherButtonTitles:nil];
+                                          cancelButtonTitle:nil
+                                          otherButtonTitles:@"Ok", nil];
     [alert show];
 }
 
 - (void)ADBImageViewDidSingleTap:(ADBImageView *)view
 {
-    NSLog(@"Single tap on image with tag %i", view.tag);
+    NSLog(@"Single tap on image with URL %@", [view.url absoluteString]);
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Single tap on image w/ URL"
+                                                    message:[view.url absoluteString]
+                                                   delegate:nil
+                                          cancelButtonTitle:nil
+                                          otherButtonTitles:@"Ok", nil];
+    [alert show];
 }
 
 - (void)ADBImageViewDidLongPress:(ADBImageView *)view
 {
-    NSLog(@"Long press on image with tag %i", view.tag);
+    NSLog(@"Long press on image with URL %@", [view.url absoluteString]);
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Long press on image w/ URL"
+                                                    message:[view.url absoluteString]
+                                                   delegate:nil
+                                          cancelButtonTitle:nil
+                                          otherButtonTitles:@"Ok", nil];
+    [alert show];
 }
 
 @end

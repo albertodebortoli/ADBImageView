@@ -36,6 +36,7 @@ static NSTimeInterval cachingTime = 604800.0; // 7 days caching as default
     
     if (self) {
         self.clipsToBounds = YES;
+        self.caching = YES;
         
         UITapGestureRecognizer *tgr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageSingleTapped:)];
         [self addGestureRecognizer:tgr];
@@ -58,6 +59,7 @@ static NSTimeInterval cachingTime = 604800.0; // 7 days caching as default
     
     if (self) {
         self.clipsToBounds = YES;
+        self.caching = YES;
         
         UITapGestureRecognizer *tgr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageSingleTapped:)];
         [self addGestureRecognizer:tgr];
@@ -148,7 +150,10 @@ static NSTimeInterval cachingTime = 604800.0; // 7 days caching as default
         NSFileManager *fileManager = [NSFileManager defaultManager];
         
         if (![fileManager fileExistsAtPath:[ADBImageView cacheDirectoryAddress]]) {
-            [fileManager createDirectoryAtPath:[ADBImageView cacheDirectoryAddress] withIntermediateDirectories:NO attributes:nil error:nil];
+            [fileManager createDirectoryAtPath:[ADBImageView cacheDirectoryAddress]
+                   withIntermediateDirectories:NO
+                                    attributes:nil
+                                         error:nil];
         }
         
         // Write image cache file
