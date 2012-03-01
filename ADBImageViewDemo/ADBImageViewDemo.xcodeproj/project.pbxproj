@@ -10,14 +10,13 @@
 		99ABF136130D3C6400462754 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99ABF135130D3C6400462754 /* UIKit.framework */; };
 		99ABF138130D3C6400462754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99ABF137130D3C6400462754 /* Foundation.framework */; };
 		99ABF13A130D3C6400462754 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99ABF139130D3C6400462754 /* CoreGraphics.framework */; };
-		99ABF151130D3C9200462754 /* ADBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ABF150130D3C9200462754 /* ADBImageView.m */; };
-		D38BDE5114FD8F2D00A7D182 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D38BDE5014FD8F2D00A7D182 /* README.md */; };
-		D3AE9D6614FA80CA002E9779 /* ADBImageViewDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3AE9D5B14FA80CA002E9779 /* ADBImageViewDemo-Info.plist */; };
-		D3AE9D6714FA80CA002E9779 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AE9D5E14FA80CA002E9779 /* AppDelegate.m */; };
-		D3AE9D6A14FA80CA002E9779 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AE9D6314FA80CA002E9779 /* main.m */; };
-		D3AE9D6B14FA80CA002E9779 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AE9D6414FA80CA002E9779 /* placeholder.png */; };
-		D3AE9D6C14FA80CA002E9779 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AE9D6514FA80CA002E9779 /* placeholder@2x.png */; };
-		D3E6F54915000485001916C6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E6F54815000485001916C6 /* MainWindow.xib */; };
+		D3A138DC150012C900C81D54 /* ADBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A138D9150012C900C81D54 /* ADBImageView.m */; };
+		D3A138DD150012C900C81D54 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D3A138DA150012C900C81D54 /* README.md */; };
+		D3A138DF1500131D00C81D54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A138DE1500131D00C81D54 /* main.m */; };
+		D3A138E21500133A00C81D54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A138E01500133A00C81D54 /* AppDelegate.m */; };
+		D3A138E61500135700C81D54 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A138E31500135700C81D54 /* placeholder.png */; };
+		D3A138E71500135700C81D54 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A138E41500135700C81D54 /* placeholder@2x.png */; };
+		D3A138E81500135700C81D54 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3A138E51500135700C81D54 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,17 +24,17 @@
 		99ABF135130D3C6400462754 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99ABF137130D3C6400462754 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		99ABF139130D3C6400462754 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		99ABF14F130D3C9200462754 /* ADBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBImageView.h; sourceTree = "<group>"; };
-		99ABF150130D3C9200462754 /* ADBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBImageView.m; sourceTree = "<group>"; };
-		D38BDE5014FD8F2D00A7D182 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		D3AE9D5B14FA80CA002E9779 /* ADBImageViewDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ADBImageViewDemo-Info.plist"; sourceTree = "<group>"; };
-		D3AE9D5C14FA80CA002E9779 /* ADBImageViewDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ADBImageViewDemo-Prefix.pch"; sourceTree = "<group>"; };
-		D3AE9D5E14FA80CA002E9779 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D3AE9D6314FA80CA002E9779 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D3AE9D6414FA80CA002E9779 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
-		D3AE9D6514FA80CA002E9779 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
-		D3AE9D8614FA8B9A002E9779 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D3E6F54815000485001916C6 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		D3A138D9150012C900C81D54 /* ADBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBImageView.m; sourceTree = "<group>"; };
+		D3A138DA150012C900C81D54 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		D3A138DB150012C900C81D54 /* ADBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBImageView.h; sourceTree = "<group>"; };
+		D3A138DE1500131D00C81D54 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		D3A138E01500133A00C81D54 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D3A138E11500133A00C81D54 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D3A138E31500135700C81D54 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = SOURCE_ROOT; };
+		D3A138E41500135700C81D54 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = SOURCE_ROOT; };
+		D3A138E51500135700C81D54 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = SOURCE_ROOT; };
+		D3A138E91500137200C81D54 /* ADBImageViewDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ADBImageViewDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D3A138EA1500137200C81D54 /* ADBImageViewDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ADBImageViewDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +54,7 @@
 		99ABF126130D3C6400462754 = {
 			isa = PBXGroup;
 			children = (
-				D38BDE5014FD8F2D00A7D182 /* README.md */,
+				D3A138DA150012C900C81D54 /* README.md */,
 				99ABF152130D3C9700462754 /* ADBIMageView */,
 				D3AE9D5A14FA80CA002E9779 /* ADBImageViewDemo */,
 				99ABF134130D3C6400462754 /* Frameworks */,
@@ -84,8 +83,8 @@
 		99ABF152130D3C9700462754 /* ADBIMageView */ = {
 			isa = PBXGroup;
 			children = (
-				99ABF14F130D3C9200462754 /* ADBImageView.h */,
-				99ABF150130D3C9200462754 /* ADBImageView.m */,
+				D3A138D9150012C900C81D54 /* ADBImageView.m */,
+				D3A138DB150012C900C81D54 /* ADBImageView.h */,
 			);
 			name = ADBIMageView;
 			sourceTree = "<group>";
@@ -93,12 +92,12 @@
 		D3AE9D5A14FA80CA002E9779 /* ADBImageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D3A138E11500133A00C81D54 /* AppDelegate.h */,
+				D3A138E01500133A00C81D54 /* AppDelegate.m */,
 				D3AE9D6D14FA80DE002E9779 /* Supporting Files */,
-				D3AE9D8614FA8B9A002E9779 /* AppDelegate.h */,
-				D3AE9D5E14FA80CA002E9779 /* AppDelegate.m */,
-				D3AE9D6414FA80CA002E9779 /* placeholder.png */,
-				D3AE9D6514FA80CA002E9779 /* placeholder@2x.png */,
-				D3E6F54815000485001916C6 /* MainWindow.xib */,
+				D3A138E31500135700C81D54 /* placeholder.png */,
+				D3A138E41500135700C81D54 /* placeholder@2x.png */,
+				D3A138E51500135700C81D54 /* MainWindow.xib */,
 			);
 			path = ADBImageViewDemo;
 			sourceTree = "<group>";
@@ -106,9 +105,9 @@
 		D3AE9D6D14FA80DE002E9779 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D3AE9D5B14FA80CA002E9779 /* ADBImageViewDemo-Info.plist */,
-				D3AE9D5C14FA80CA002E9779 /* ADBImageViewDemo-Prefix.pch */,
-				D3AE9D6314FA80CA002E9779 /* main.m */,
+				D3A138E91500137200C81D54 /* ADBImageViewDemo-Info.plist */,
+				D3A138EA1500137200C81D54 /* ADBImageViewDemo-Prefix.pch */,
+				D3A138DE1500131D00C81D54 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,6 +138,7 @@
 		99ABF128130D3C6400462754 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = 63BITS;
 			};
 			buildConfigurationList = 99ABF12B130D3C6400462754 /* Build configuration list for PBXProject "ADBImageViewDemo" */;
@@ -163,11 +163,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3AE9D6614FA80CA002E9779 /* ADBImageViewDemo-Info.plist in Resources */,
-				D3AE9D6B14FA80CA002E9779 /* placeholder.png in Resources */,
-				D3AE9D6C14FA80CA002E9779 /* placeholder@2x.png in Resources */,
-				D38BDE5114FD8F2D00A7D182 /* README.md in Resources */,
-				D3E6F54915000485001916C6 /* MainWindow.xib in Resources */,
+				D3A138DD150012C900C81D54 /* README.md in Resources */,
+				D3A138E61500135700C81D54 /* placeholder.png in Resources */,
+				D3A138E71500135700C81D54 /* placeholder@2x.png in Resources */,
+				D3A138E81500135700C81D54 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,9 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99ABF151130D3C9200462754 /* ADBImageView.m in Sources */,
-				D3AE9D6714FA80CA002E9779 /* AppDelegate.m in Sources */,
-				D3AE9D6A14FA80CA002E9779 /* main.m in Sources */,
+				D3A138DC150012C900C81D54 /* ADBImageView.m in Sources */,
+				D3A138DF1500131D00C81D54 /* main.m in Sources */,
+				D3A138E21500133A00C81D54 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,9 +225,9 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ADBImageViewDemo/ADBImageViewDemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "ADBImageViewDemo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "ADBImageViewDemo/ADBImageViewDemo-Info.plist";
+				INFOPLIST_FILE = "ADBImageViewDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = ADBImageViewDemo;
@@ -243,9 +242,9 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ADBImageViewDemo/ADBImageViewDemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "ADBImageViewDemo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "ADBImageViewDemo/ADBImageViewDemo-Info.plist";
+				INFOPLIST_FILE = "ADBImageViewDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = ADBImageViewDemo;
