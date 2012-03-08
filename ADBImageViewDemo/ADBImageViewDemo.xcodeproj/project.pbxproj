@@ -83,8 +83,8 @@
 		99ABF152130D3C9700462754 /* ADBIMageView */ = {
 			isa = PBXGroup;
 			children = (
-				D3A138D9150012C900C81D54 /* ADBImageView.m */,
 				D3A138DB150012C900C81D54 /* ADBImageView.h */,
+				D3A138D9150012C900C81D54 /* ADBImageView.m */,
 			);
 			name = ADBIMageView;
 			sourceTree = "<group>";

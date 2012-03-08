@@ -263,7 +263,7 @@ static NSTimeInterval cachingTime = 604800.0; // 7 days caching as default
     }
     
     _activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-    _activityIndicator.frame = self.bounds;
+    _activityIndicator.center = self.center;
     [self addSubview:_activityIndicator];
     [_activityIndicator startAnimating];
     
