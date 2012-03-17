@@ -15,7 +15,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [self.window makeKeyAndVisible];
-
+    [self.window setBackgroundColor:[UIColor blackColor]];
+    
     //added button to reload image
     _button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     _button.frame = CGRectMake(10.0, 360.0, 300.0, 35.0);
