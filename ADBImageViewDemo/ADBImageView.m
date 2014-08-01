@@ -36,7 +36,7 @@ static NSTimeInterval cachingTime = 604800.0; // 7 days caching as default
     
     if (self) {
         self.clipsToBounds = YES;
-        self.caching = YES;
+        _caching = YES;
         
         UITapGestureRecognizer *tgr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageSingleTapped:)];
         [self addGestureRecognizer:tgr];
